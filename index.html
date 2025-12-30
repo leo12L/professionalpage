@@ -29,6 +29,203 @@
 
         </div>
     </header>
-    
+    <main id="contenido">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="badge">HTML - CSS - Accesibilidad </p>
+                    <h1 id="hero-title">Construye paginas con sematica real</h1>
+                    <p class="lead">
+                        Aprendiendo a estructurar contenido con etiquetas correctas
+                        Mejorar SEO y accesibilidad y maquetar con CSS moderno sin depender
+                        de frameworks
+                    </p>
+                    <div class="cta-row">
+                        <a href="#registro" class="bti" >Empezar ahora</a>
+                        <a href="#temario" class="btn btn--ghost" >Ver temario</a>
+                    </div>
+                    <dl class="stats" arial-label="indicadores del curso">
+                        <div class="stat">
+                            <dt>Duracion</dt>
+                            <dd>Semanas</dd>
+                        </div>
+                        <div class="stat">
+                            <dt>Nivel</dt>
+                            <dd>Fundamentos pro</dd>
+                        </div>
+                        <div class="stat">
+                            <dt>Proyectos</dt>
+                            <dd>One page completa</dd>
+                        </div>
+                    </dl>
+                </div>
+                <figure class="hero-card">
+                    <div class="hero-visual" arial-hicen="tru"></div>
+                    <figcaption>
+                        <strong>Tip profesional:</strong> usar <code>&lt;main&gt;</code>
+                        <code>&lt;article&gt;</code>,<code>&lt;sectrion&gt;</code> y
+                        <code>&lt;nav&gt;</code> mejorar la mantenibilidad
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="beneficion" class="section" aria-labelledby="beneficios-title">
+            <div class="container">
+            <header class="section-head">
+                <h2 id="beneficios-title">Beneficos que si importan</h2>
+                <p>Enfocado en estandares:
+                    semantica, accesibilidad y estructura escalable</p>
+            </header>
+            <div class="grid-3">
+                <article class="card">
+                    <h3>Semantica real</h3>
+                    <p>Tu HTML, comunica significado, no solo "cajas".
+                    Mejor para SEO y lectura.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Accesibilidad (Ally)</h3>
+                    <p>Formularios con labels, navegacion por teclado
+                        y estructura correcta
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>CSS Moderno</h3>
+                    <p>Layout con Grid/Flex, componentes simples y estilos reutilizables</p>
+                </article>
+            </div>
+         </div>
+        </section>
+        <section id="temario" class="section section-muted" aria-labelledby="temario-title">
+            <div class="container">
+                <header class="section-head">
+                    <h2 id="temario-title">Temario</h2>
+                    <p>Lo que se constrye en clase (practico y con buenas practicas)</p>
+                </header>
+                <div class="grid-2">
+                    <article class="card">
+                        <h3>semana 1</h3>
+                        <ul class="list">
+                            <li>Estructura del documento</li>
+                            <li>Header/nav/main/Footer</li>
+                            <li>Imagenes</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Semana 2</h3>
+                        <ul class="list">
+                            <li>Flexbox + grid para layour responsivo</li>
+                            <li>Componentes UI: cards, badges, botones</li>
+                            <li>Buenas paracticas: espaciiados y consistencia</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Semana 3</h3>
+                        <ul class="list">
+                            <li>Formulario accesibilidad (laberls, fieldset, legend)</li>
+                            <li>Validacion HTML5: required, pattern, min/max</li>
+                            <li>Ux: estados, mensajes y focos</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Semana 4</h3>
+                        <ul class="list">
+                            <li>Proyecto: One Page</li>
+                            <li>Checklist SEO + ally + semantica</li>
+                            <li>Entrega con Github + readme</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="testimonios" aria-labelledby="testimonios-title">
+            <div class="container">
+                <header class="section-head">
+                    <h2 id="testimonios-title">Testimonios</h2>
+                    <p>Feedback tipico cuando alguien aprende semantica de verdad</p>
+                </header>
+                <div class="grid-3">
+                    <figure class="quote card">
+                        <blockquote>
+                            "Ahora mis paginas se sienten mas clasras.
+                            Entiendo por que no todo es un div"
+                        </blockquote>
+                        <figcaption>-Fora</figcaption>
+                    </figure>
+                    <figure class="quote card">
+                        <blockquote>
+                            "Mis formularios pasaron auditorias de ccesibilidad. Es otro nivel"
+                        </blockquote>
+                        <figcaption>- Mac</figcaption->
+                    </figure>
+                    <figure class="quote card">
+                        <blockquote>
+                            "Con grid y semantica, mi layout es mas limpio y mantenible"
+                        </blockquote>
+                        <figcaption>- Luis Carlos</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="registro" class="section--muted"
+         aria-abelledby="registro-title">
+
+        <div class="container">
+            <header class="section">
+                <h2 id="registro-title">Registro</h2>
+                <p>Formulario accesibilidadad labels correctos, fielset y validacion html</p>
+            </header>
+            <form action="#" class="form card" method="post">
+                <fieldset>
+                    <legend>Datos del estudiante</legend>
+                        <div class="form-row">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="name" id="name"
+                             required placeholder="Tu nombre completo"/>
+                        </div>
+                        <div class="form-row">
+                            <label for="email">Correo</label>
+                            <input type="text" id="email" name="email"
+                             required placeholder="correo@ejemplo.com" autocomplete="email"/>
+                        </div>
+                        <div class="form-row">
+                            <label for="level">Nivel</label>
+                            <select name="level" id="level" required>
+                                <option value="">Selecciona una opcion</option>
+                                <option value="beginner">Principiante</option>
+                                <option value="intermediate">intermediate</option>
+                            </select>
+                        </div>
+                        <div class="form-row">
+                            <label for="message">Mensaje</label>
+                            <textarea 
+                            name="message"
+                            id="mesaage" 
+                            rows="4" 
+                            placeholder="Que quieres logar con este curso?"
+                            ></textarea>
+                        </div>
+                        <div class="form-actions">
+                            <button class="btn" type="submit">Enviar registro</button>
+                            <p>
+                                Al enviar aceptas recibir informacion del curso.
+                            </p>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Leonardo class - HTML sematico</p>
+            <nav aria-label="Enlace legible" class="footer-links">
+                <a href="#">Privacidad</a>
+                <a href="#">Terminos</a>
+                <a href="#">Contactos</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
